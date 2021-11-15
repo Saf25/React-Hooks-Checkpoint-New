@@ -40,22 +40,6 @@ const movies = [
     movieRating: 4,
     trailer: "https://www.youtube.com/watch?v=QkZxoko_HC0",
   },
-  {
-    id: uuidv4(),
-    movieName: "Forest Gump",
-    movieImg:
-      "https://fr.web.img4.acsta.net/pictures/15/10/13/15/12/514297.jpg",
-    movieRating: 5,
-    trailer: "https://www.youtube.com/watch?v=uPIEn0M8su0",
-  },
-  {
-    id: uuidv4(),
-    movieName: "Black Swan",
-    movieImg:
-      "https://media.senscritique.com/media/000004876939/source_big/Black_Swan.jpg",
-    movieRating: 4,
-    trailer: "https://www.youtube.com/watch?v=5jaI1XOB-bs",
-  },
 ];
 /* <MovieList movies={movieList} /> */
 function App() {
